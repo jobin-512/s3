@@ -1,0 +1,9 @@
+node_modules/
+.svelte-kit/
+build/
+data/
+uploads/
+.env
+.DS_Store
+*.log
+_scaffold-backup/

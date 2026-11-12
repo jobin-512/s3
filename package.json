@@ -1,0 +1,31 @@
+{
+	"name": "filevault",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"description": "Self-hosted S3-like file storage built with SvelteKit: sets (buckets), multer local uploads, API keys, public/private files and share links.",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "node scripts/start.mjs",
+		"prepare": "svelte-kit sync",
+		"test": "node scripts/smoke-test.mjs"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^5.5.8",
+		"@sveltejs/kit": "^2.70.4",
+		"@sveltejs/vite-plugin-svelte": "^6.2.1",
+		"svelte": "^5.57.3",
+		"vite": "^7.0.0"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"jsonwebtoken": "^9.0.2",
+		"mime-types": "^3.0.1",
+		"multer": "^2.0.2"
+	}
+}
